@@ -1,0 +1,24 @@
+/* Incluye la fuente de Minecraft */
+@font-face {
+  font-family: 'Minecraft';
+  src: url('fonts/Minecraft.ttf') format('truetype');
+}
+
+/* Aplica la fuente de Minecraft al cuerpo o a elementos específicos */
+body {
+  font-family: 'Minecraft', sans-serif;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: orange;
+}
+
+.featurette-heading {
+  font-family: 'Minecraft', sans-serif;
+  letter-spacing: -.05rem;
+}
+
+.carousel-caption p {
+  font-family: 'Minecraft', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}

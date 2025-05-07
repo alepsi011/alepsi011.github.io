@@ -1,0 +1,19 @@
+
+@font-face {
+  font-family: 'Minecraft';
+  src: url('path-to-your-font/Minecraftia.ttf') format('truetype');
+}
+
+/* Aplica la tipografía de Minecraft al cuerpo o a elementos específicos */
+body {
+  font-family: 'Minecraft', sans-serif;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+}
+
+.carousel-caption p,
+.featurette-heading,
+.marketing .col-lg-4 p {
+  font-family: 'Minecraft', sans-serif;
+}
