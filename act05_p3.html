@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Unidad 3 actividad 5</title>
+    <link rel="icon" type="imagen/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <meta name ="autor" content="Alexis Yahir Ramirez Rojas">
+    <meta name="fecha" content="8 de mayo de 2025">
+    <meta name="descripcion" content ="formulario">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+      </head>
+  <body>
+  <!--llenar el titulo y pegar contenido-->
+    <h1>Unidad 3 actividad 5 tema (formulario)</h1>
+    <form class="form-horizontal" name="formRegistro" action="#" method="get">
+        <fieldset>
+        
+        <!-- Form Name -->
+        <legend>Registro de usuario</legend>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="txtNombre">Nombre de usuario</label>  
+          <div class="col-md-6">
+          <input id="txtNombre" name="txtNombre" type="text" placeholder="Alexis Yahir Ramirez" class="form-control input-md" required="">
+          <span class="help-block">Escribe tu nombre completo</span>  
+          </div>
+        </div>
+        
+        <!-- Password input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="passClave">contraseña</label>
+          <div class="col-md-5">
+            <input id="passClave" name="passClave" type="password" placeholder="aqui tu contraseña" class="form-control input-md" required="">
+            <span class="help-block">Debe tener 8 caracteres (unicamente letras y digitos)</span>
+          </div>
+        </div>
+        
+        <!-- Prepended text-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="txtTelefono">Telefono</label>
+          <div class="col-md-6">
+            <div class="input-group">
+              <span class="input-group-addon">+52</span>
+              <input id="txtTelefono" name="txtTelefono" class="form-control" placeholder="tu numero de telefono aqui" type="text">
+            </div>
+            
+          </div>
+        </div>
+        
+        <!-- Appended Input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="txtCorreo">Correo electronico</label>
+          <div class="col-md-6">
+            <div class="input-group">
+              <input id="txtCorreo" name="txtCorreo" class="form-control" placeholder="aqui tu correo" type="text" required="">
+              <span class="input-group-addon">@upslp.edu.mx</span>
+            </div>
+            
+          </div>
+        </div>
+        <!-- Textarea -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="txtTexto">Mensaje</label>
+          <div class="col-md-4">                     
+            <textarea class="form-control" id="txtTexto" name="txtTexto">Escribe tu mensaje</textarea>
+          </div>
+        </div>
+        
+        <!-- Button -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="btn_enviar"></label>
+          <div class="col-md-4">
+            <button id="btn_enviar" name="btn_enviar" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+        
+        </fieldset>
+        </form>
+        
+  </body>
+</html>

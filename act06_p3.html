@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Unidad 3 actividad 6</title>
+    <link rel="icon" type="imagen/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <meta name ="autor" content="Alexis Yahir Ramirez Rojas">
+    <meta name="fecha" content="12 mayo de 2025">
+    <meta name="descripcion" content ="javaScript">
+    <style>
+        p{ color: limegreen;background-color: black;border:crimson 2px dashed}
+    </style>
+    <script>
+        function funcionClick(){
+            document.getElementById("varParrafo").innerHTML+="Hola mundo con click <br>";
+        }
+        function funcionDoble(){
+            document.getElementById("varParrafo").innerHTML+="Hola mundo con dobleclick <br>";
+        }
+        function funcionValidar(){
+            if (navigator.cookieEnabled==true){alert("bienvenido a mi sitio web")}
+        }
+        function funcionOver(obj){obj.style.backgroundColor="color";}
+        function funcionOver(obj){obj.style.backgroundColor="color"};
+
+        }
+
+    </script>
+      </head>
+  <body>
+  <!--llenar el titulo y pegar contenido-->
+    <h1>Unidad 3 actividad 6 tema (javaScript)</h1>
+    <h3>Presiona el boton para ejecutar el codigo</h3>
+    <button onclick="funcionClick()" ondblclick="funcionDoble()">Accion...</button>
+    <p id="varParrafo"></p>
+  </body>
+</html>
